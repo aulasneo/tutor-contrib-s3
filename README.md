@@ -26,6 +26,7 @@ Configuration
 
 * `OPENEDX_AWS_ACCESS_KEY` (default: `""`)
 * `OPENEDX_AWS_SECRET_ACCESS_KEY` (default: `""`)
+* `S3_REGION` (default: `""`)
 * `S3_HOST` (default: `"s3.amazonaws.com"`)
 * `S3_PORT` (default: `443`)
 * `S3_USE_SSL` (default: `true`)
@@ -35,6 +36,8 @@ Configuration
 * `S3_GRADE_BUCKET` (default: `"{{ S3_STORAGE_BUCKET }}"`)
 * `S3_ADDRESSING_STYLE` (default: `"virtual"`)
 * `S3_SIGNATURE_VERSION` (default: `"s3v4"`)
+
+Note: `S3_REGION` must be set.
 
 These values can be modified with `tutor config save --set
 PARAM_NAME=VALUE` commands.
