@@ -1,4 +1,4 @@
-## Unreleased
+## Version 2.4.1 (2026-01-16)
 
 * Point release to mark the GitHub repository move.
 
