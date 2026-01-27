@@ -43,7 +43,7 @@ appropriate one:
 Installation
 ------------
 
-    pip install git+https://github.com/cleura/tutor-contrib-s3@v2.4.1
+    pip install git+https://github.com/cleura/tutor-contrib-s3@v2.5.0
 
 Then, to enable this plugin, run:
 
